@@ -1,0 +1,159 @@
+main {
+  width: 100%;
+  height: 100%;
+  padding-top: 70px;
+  font-family: "Roboto Slab", serif;
+}
+
+.main_container_orders {
+  width: 100%;
+  height: 100%;
+  display: relative;
+}
+.ttile_block_orders {
+  width: 100%;
+  height: 48px;
+  font-size: 28px;
+  text-align: center;
+  background-color: #d1d0d0;
+  border-radius: 4px;
+}
+/* разделение левой и правой части*/
+.main_container_orders {
+  display: flex;
+
+  align-content: space-around;
+  width: 100%;
+}
+.right_block_orders {
+  text-align: center;
+  min-width: 250px;
+}
+.right_block_orders ul li {
+  width: 200px;
+}
+
+#space_list {
+  width: 200px;
+}
+#space_list:nth-child(2) {
+  min-width: 100px;
+}
+
+/* Отступы от фильтров и сортировки*/
+.func_block_orders {
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
+/* карточка заказа топ-бот*/
+.cards_orders {
+  width: 100%;
+  height: 90px;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+}
+.top_carts {
+  width: 100%;
+  height: 45px;
+}
+.top_carts h3 {
+  margin: 0;
+  padding: 0;
+  width: 49%;
+  float: left;
+  text-align: center;
+}
+.top_carts span {
+  width: 49%;
+  float: right;
+  text-align: center;
+}
+.bottom_carts {
+  width: 100%;
+  height: 45px;
+}
+.bottom_carts span {
+  width: 33%;
+  margin-left: 15%;
+  float: left;
+}
+.enter_orders {
+  width: 33%;
+  float: right;
+}
+
+/* правая часть с категориями*/
+a {
+  text-decoration: none;
+}
+.right_block_orders {
+  text-align: center;
+  width: 15%;
+}
+.right_block_orders ul li {
+  margin-top: 6%;
+  list-style: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+
+.right_block_orders ul li a {
+  padding-left: 8%;
+}
+.func_block_orders input {
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.func_block_orders input:hover {
+  color: red;
+}
+.enter_orders {
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.enter_orders:hover {
+  color: red;
+}
+#space_list:nth-child(1) {
+  width: 20%;
+}
+
+footer {
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  bottom: 0;
+}
+
+.categories_form_preview {
+  width: 30%;
+  padding-left: 25%;
+  padding-right: 45%;
+  font-size: 20px;
+}
+.categories_form_preview h2 {
+  align-items: center;
+}
+.categories_form_preview ul li {
+  list-style: none;
+  padding-top: 20px;
+  border-bottom: 1px solid black;
+}
+.categories_form_preview ul li:last-child {
+  border-bottom: none;
+  padding-top: 20px;
+}
+.categories_form_preview input {
+  font-size: 18px;
+  border: 1px solid black;
+  width: 200px;
+  height: 36px;
+  border-radius: 15px;
+  text-align: center;
+}
